@@ -1,0 +1,55 @@
+/* Define your font using @font-face */
+@font-face {
+  font-family: 'YourFontName'; /* Name to use for this font */
+  src: url('path/to/your/font.woff2') format('woff2'), /* Font source */
+       url('path/to/your/font.woff') format('woff'), /* Optional: provide additional formats for compatibility */
+       url('clarasans.ttf') format('truetype');
+  font-weight: normal; /* Normal or specific font weight */
+  font-style: normal; /* Normal or italic */
+}
+
+html{ 
+   font-size: 16px;/*for using REM units*/
+}
+
+/* Typography styles */
+body{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.6;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  /* Define styles for headings */
+  font-family: 'YourHeadingFont', sans-serif; /* Customize heading font */
+  font-weight: bold; /* Adjust font weight as needed */
+  /* Add other styles like color, margin, padding, etc. */
+}
+
+p {
+  /* Styles for paragraphs */
+  /* Add font size, line height, margin, padding, etc. */
+}
+
+a {
+  /* Styles for links */
+  color: #007BFF; /* Customize link color */
+  text-decoration: none; /* Remove underline by default */
+}
+
+a:hover {
+  /* Styles for link hover state */
+  text-decoration: underline; /* Add underline on hover if desired */
+}
+
+ul, ol {
+  /* Styles for unordered and ordered lists */
+  /* Add margin, padding, list-style-type, etc. */
+}
+
+li {
+  /* Styles for list items */
+  /* Add margin, padding, list-style-image, etc. */
+}
